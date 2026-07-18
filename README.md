@@ -1,6 +1,6 @@
-Goal here is to provide seamless/easy to understand summary of each paper + plasable implementation code for it if possible for each. 
+## Goal here is to provide seamless/easy to understand summary of each paper + plasable implementation code for it if possible for each. 
 
-~20 papers to target: 
+# ~20 papers to target: 
 
 ImageNet Classification with Deep Convolutional Neural Networks ---> In progress
 
