@@ -8,14 +8,14 @@ The data was put into two catergories top-1 and top-5, and each image was reshap
 For the regulization the authors implemented a ReLu activation model and also seprate each convulution into two distint upper and lower divisions, where each convolution layer is native to its own GPU it is in. And thought not needed the authours implemeneted normalization and overlapping pooling which improved generalization. 
 
 <img width="680" height="225" alt="image" src="https://github.com/user-attachments/assets/516e5c0b-7928-438e-84c7-90941bac5685" />
-# image showcases the 5 convulutions and 3 interconnected layes, wiht a softmax fuction at the end ^
+#image showcases the 5 convulutions and 3 interconnected layes, wiht a softmax fuction at the end ^
 
 to handle overfitting they used data augementation where they manupulate each image into different variations and also used dropout alongside
 <img width="693" height="208" alt="image" src="https://github.com/user-attachments/assets/3436b98d-f157-4afe-9320-cbea2492c3dc" />
-# The models Results ^
+#The models Results ^
 
 <img width="710" height="270" alt="image" src="https://github.com/user-attachments/assets/b7440541-598d-4e49-81b4-f38d7e022ebb" />
-# Showcases the kernels of the top are specialized for geometrically and the bottom one for color discoloration
+#Showcases the kernels of the top are specialized for geometrically and the bottom one for color discoloration
 
 In summary this model seemed to outperform that of multilayer perceptron when it comes to image classification
 
