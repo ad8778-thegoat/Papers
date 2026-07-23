@@ -12,11 +12,15 @@ The evaluation was categorized using top-1 and top-5 error rates. Each image was
 For regularization, the authors implemented a ReLU activation function and separated each convolution into two distinct upper and lower divisions, where each convolutional layer was native to its respective GPU. Although not strictly needed, the authors also implemented local response normalization and overlapping pooling, which improved generalization.
 
 <img width="680" height="225" alt="image" src="https://github.com/user-attachments/assets/516e5c0b-7928-438e-84c7-90941bac5685" />
+
+
 *The image showcases the 5 convolutional layers and 3 interconnected layers, with a softmax function at the end.*
 
 To handle overfitting, they used data augmentation (where they manipulated each image into different variations) alongside dropout.
 
 <img width="693" height="208" alt="image" src="https://github.com/user-attachments/assets/3436b98d-f157-4afe-9320-cbea2492c3dc" />
+
+
 *The model's results.*
 
 <img width="710" height="270" alt="image" src="https://github.com/user-attachments/assets/b7440541-598d-4e49-81b4-f38d7e022ebb" />
